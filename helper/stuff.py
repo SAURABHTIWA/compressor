@@ -10,7 +10,7 @@
 #    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 #    General Public License for more details.
 #
-#    License can be found in < https://github.com/1Danish-00/CompressorBot/blob/main/License> .
+#    License can be found in < https://github.com/ToonEncodes/compressing_bot/blob/main/License> .
 
 from .worker import *
 
@@ -32,6 +32,7 @@ async def start(event):
         f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
+            Button.url("SOURCE CODE", url="github.com/ToonEncodes/compressing_bot/")]
             [
                 Button.url("Updates", url="https://t.me/TEICompressorlogos"),
                 Button.url("DEVELOPER", url="t.me/TE_Mohanish"),
