@@ -35,7 +35,7 @@ async def start(event):
             [
                 Button.url("Updates", url="https://t.me/TEICompressorlogos"),
                 Button.url("DEVELOPER", url="t.me/TE_Mohanish"),
-                Button.url("Edited by", url="t.me/Mahith1211),
+               
             ],
         ],
     )
@@ -61,12 +61,12 @@ async def beck(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("SOURCE CODE", url="github.com/ToonEncodes/compressing_bot/"),
+                Button.url("DEVELOPER", url="t.me/TE_Mohanish"),
             ],
         ],
     )
-
+9
 
 async def sencc(e):
     key = e.pattern_match.group(1).decode("UTF-8")
