@@ -14,4 +14,8 @@
 
 ### Fork Repo Then click on below button of ur fork repo.  
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zKaAt1?referralCode=pdhiUR)
 
+
+Deploy Our Bot in heroku and railway its free. Made By Toon Encodes
+Thank You
