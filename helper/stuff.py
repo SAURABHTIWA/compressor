@@ -18,8 +18,8 @@ from .worker import *
 async def up(event):
     if not event.is_private:
         return
-    stt = dt.now()
-    ed = dt.now()
+    stt = dt.now
+    ed = dt.now
     v = ts(int((ed - uptime).seconds) * 1000)
     ms = (ed - stt).microseconds / 1000
     p = f"🌋Pɪɴɢ = {ms}ms"
