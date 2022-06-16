@@ -32,9 +32,8 @@ async def start(event):
         f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
-            Button.url("SOURCE CODE", url="github.com/ToonEncodes/compressing_bot/")]
             [
-                Button.url("Updates", url="https://t.me/TEICompressorlogos"),
+                Button.url("SOURCE CODE", url="https://github.com/ToonEncodes/compressing_bot/"),
                 Button.url("DEVELOPER", url="t.me/TE_Mohanish"),
                
             ],
